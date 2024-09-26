@@ -245,7 +245,7 @@ export default {
               {
                 label: "Private",
                 value:
-                  "https://raw.githubusercontent.com/chenglong-do/ACL/refs/heads/master/Clash/config/private.ini"
+                  "https://cdn.jsdelivr.net/gh/chenglong-do/ACL@master/Clash/config/private.ini"
               },
               {
                 label: "Maying",
