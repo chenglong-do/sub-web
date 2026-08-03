@@ -16,6 +16,11 @@ export const REMOTE_CONFIGS = [
   {
     label: "customized",
     options: [
+      {
+        label: "Private",
+        value:
+            "https://cdn.jsdelivr.net/gh/chenglong-do/ACL@master/Clash/config/Private.ini"
+      },
       { label: "Maying", value: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/maying.ini" },
       { label: "Ytoo", value: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/ytoo.ini" },
       { label: "FlowerCloud", value: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/flowercloud.ini" },
