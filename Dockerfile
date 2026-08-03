@@ -1,8 +1,9 @@
 # ---- Dependencies ----
 FROM node:24-alpine AS build
 WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile
 COPY . .
-RUN yarn install
 RUN yarn build
 
 FROM nginx:1.24-alpine

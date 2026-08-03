@@ -18,8 +18,7 @@ export const REMOTE_CONFIGS = [
     options: [
       {
         label: "Private",
-        value:
-            "https://cdn.jsdelivr.net/gh/chenglong-do/ACL@master/Clash/config/Private.ini"
+        value: "https://cdn.jsdelivr.net/gh/chenglong-do/ACL@master/Clash/config/Private.ini"
       },
       { label: "Maying", value: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/maying.ini" },
       { label: "Ytoo", value: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/customized/ytoo.ini" },
