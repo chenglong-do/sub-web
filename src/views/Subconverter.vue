@@ -241,8 +241,7 @@ export default {
       options: {
         clientTypes: CLIENT_TYPES,
         backendOptions: [
-        { value: "http://192.168.168.168:10087/sub?" },
-        { value: "http://home.sunflowers.fun:10087/sub?" }
+        { value: "http://127.0.0.1:2550/sub?" }
         ],
         remoteConfig: REMOTE_CONFIGS
       },
