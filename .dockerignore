@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE / 编辑器
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 依赖与构建产物（不进入构建上下文，避免层缓存失效）
+node_modules
+dist
+coverage
+
+# 环境变量
+# 注意：.env 不能排除，yarn build 时 Vite 需要读取 VITE_* 配置
+.env.local
+.env.*.local
+
+# 文档与 CI（不影响镜像内容）
+docs
+.github
+README.md
+AGENTS.md
+LICENSE
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+services
+
+# 日志与系统文件
+*.log
+.DS_Store

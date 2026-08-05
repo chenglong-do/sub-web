@@ -19,3 +19,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# WorkBuddy 本地记忆数据
+.workbuddy/
